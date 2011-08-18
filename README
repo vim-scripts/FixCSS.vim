@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3693
+
+This function makes "junk" CSS (little or no whitespace) somewhat readable by adding newlines after '{', '}', and ';' characters. It also inserts a single space before every '{'.
+
+Example of junk CSS: http://imgs.xkcd.com/s/c40a9f8.css
+What it looks like after :Fixcss : https://gist.github.com/1155063
+
+You can put the function in your .vimrc or save the script in $VIMRUNTIME/scripts
+
+Updated version: https://github.com/dbb/vim/raw/master/FixCSS.vim
